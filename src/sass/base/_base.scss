@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 1024px;
+}
+
+.active {
+  border-bottom: 3px solid var(--main-button-background);
+}
+
+.button-active {
+  background-color: var(--main-button-background);
+  color: var(--white-color);
+  border-radius: 5px;
+}
+
