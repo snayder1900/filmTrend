@@ -4,7 +4,7 @@ import cargarTitulos from './cargarTitulos';
 //import './listenerFiltroGeneros';
 //import './listenerBuscar';
 //import './paginacion';
-//import './listenerItems';
+import './listenerItems';
 //import './listenerPopup';
 import fetchPopulares from './fetchPopulares';
 
