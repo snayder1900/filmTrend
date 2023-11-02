@@ -5,7 +5,7 @@ import cargarTitulos from './cargarTitulos';
 //import './listenerBuscar';
 //import './paginacion';
 import './listenerItems';
-//import './listenerPopup';
+import './listenerPopup';
 import fetchPopulares from './fetchPopulares';
 
 const cargar = async () => {

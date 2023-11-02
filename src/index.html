@@ -3,14 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <link rel="shortcut icon" href="./images/filmtrend.png" type="image/x-icon">
+    <title>filmTrend</title>
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
   </head>
   <body>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
     <include src="./partials/example.html"></include>
-    <header></header>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <h1 class="nav__title">LOGO</h1>
+          <ul class="nav__">
+            <li class="nav__item"><a class="nav__link" href="#">HOME</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">MY LIBRARY</a></li>
+          </ul>
+        </nav>
+        <div class="header-search">
+          <input class="header-search__input type="text" placeholder="Buscar Peliculas">
+        </div>
+      </div>
+    </header>
     <main class="main container">
       <div class="main__filtros">
         <button class="btn btn--active" id="movie">
