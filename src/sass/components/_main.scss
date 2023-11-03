@@ -2,7 +2,7 @@
 
 .main {
 	margin: auto;
-	padding: 40px 80px;
+	padding: 60px 0;
 	display: grid;
 	grid-template-columns: 1fr;
 	gap: 40px;
@@ -10,10 +10,6 @@
 	&__filtros {
 		display: flex;
 		gap: 10px;
-	}
-
-	&__titulo {
-		margin-bottom: 20px;
 	}
 
 	&__grid {

@@ -1,3 +1,40 @@
 .header {
   background-color: red;
+  margin-bottom: 60px;
+
+  &-search {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.nav {
+  display: flex;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    padding-right: 564px;
+  }
+  &__title{
+    color: var(--white-color);
+  }
+
+  &__ul {
+    display: flex;
+   
+  }
+  &__link {
+    color: var(--white-color);;
+  }
+
+  &__item {
+    margin-right: 39px;
+  }
+}
+
+.svg--container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
 }

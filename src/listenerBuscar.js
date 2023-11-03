@@ -1,7 +1,8 @@
-/*import cargarTitulos from './cargarTitulos';
+
+//import cargarTitulos from './cargarTitulos';
 import fetchBusqueda from './fetchBusqueda';
 
-const btn = document.getElementById('btn-buscar');
+/*const btn = document.getElementById('btn-buscar');
 
 btn.addEventListener('click', async (e) => {
 	e.preventDefault();
@@ -9,3 +10,17 @@ btn.addEventListener('click', async (e) => {
 	const resultados = await fetchBusqueda();
 	cargarTitulos(resultados);
 });*/
+
+
+
+const searchInput = document.getElementById('search-input');
+const searchButton = document.getElementById('search-button');
+
+searchButton.addEventListener("click", (e) => {
+	e.preventDefault();
+
+	const query = searchInput.value;
+	if (query) {
+		fetchBusqueda(query)
+	}
+})
